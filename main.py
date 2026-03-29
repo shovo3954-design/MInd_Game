@@ -1,5 +1,9 @@
 import os
 import eel
+from engine.features import *
+
+playAssistentSound()
+
 
 eel.init("www")
 
