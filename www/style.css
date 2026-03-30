@@ -99,6 +99,7 @@ body{
     font-family: cursive;
   }
   
+
   
   .glow-on-hover {
     width: 35px;
@@ -170,3 +171,8 @@ body{
     }
   }
   
+#siri-container canvas {
+    transform: translateZ(0);
+    will-change: transform;
+    image-rendering: pixelated;
+}
