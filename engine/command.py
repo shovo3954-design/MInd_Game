@@ -31,8 +31,6 @@ def takecommand():
         query = r.recognize_google(audio, language="en-US")
         print(f"User said {query}")
         eel.DisplayMessage(query)
-        time.sleep(3)
-        eel.ShowHood()
         
     except Exception as e:
         return ""
@@ -48,5 +46,12 @@ def allCommands():
         print("I run.")
         from engine.features import openCommand
         openCommand(query)
+        
+    elif "on YouTube":
+        from engine.features import PlayYoutube
+        PlayYoutube(query)
+    
     else:
         print("I do not run.")
+        
+        eel.ShowHood()
