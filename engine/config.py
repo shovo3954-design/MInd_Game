@@ -1,1 +1,1 @@
-ASSISTANT_NAME = "robot"
+ASSISTANT_NAME = "mind"

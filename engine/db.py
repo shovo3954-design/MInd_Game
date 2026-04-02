@@ -23,10 +23,7 @@ CREATE TABLE IF NOT EXISTS sys_command(
 query = "CREATE TABLE IF NOT EXISTS web_command(id integer primary key, name VARCHAR(100), url VARCHAR(1000))"
 cursor.execute(query)
 
-query = "INSERT INTO web_command VALUES (null,'Gemini Ai', 'https://gemini.google.com/app')"
-cursor.execute(query)
-con.commit()
+# query = "INSERT INTO web_command VALUES (null,'Gemini Ai', 'https://gemini.google.com/app')"
+# cursor.execute(query)
+# con.commit()
 
-query = "INSERT INTO web_command VALUES (null,'Claude', 'https://claude.ai/new')"
-cursor.execute(query)
-con.commit()
