@@ -12,6 +12,7 @@ import sqlite3
 import webbrowser
 from engine.helper import extract_yt_term
 import pvporcupine
+import time
 
 
 con = sqlite3.connect("mind_game.db")

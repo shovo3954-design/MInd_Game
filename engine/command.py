@@ -1,8 +1,7 @@
 import pyttsx3
 import speech_recognition as sr
 import eel
-import time
-import pyaudio
+
 
 
 def speak(text):
